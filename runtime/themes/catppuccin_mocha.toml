@@ -62,12 +62,12 @@
 
 # User Interface
 # --------------
-"ui.background" = { fg = "text", bg = "base" }
+"ui.background" = { fg = "text", bg = "" }
 
 "ui.linenr" = { fg = "surface1" }
 "ui.linenr.selected" = { fg = "lavender" }
 
-"ui.statusline" = { fg = "subtext1", bg = "mantle" }
+"ui.statusline" = { fg = "subtext1", bg = "" }
 "ui.statusline.inactive" = { fg = "surface2", bg = "mantle" }
 "ui.statusline.normal" = { fg = "base", bg = "lavender", modifiers = ["bold"] }
 "ui.statusline.insert" = { fg = "base", bg = "green", modifiers = ["bold"] }
