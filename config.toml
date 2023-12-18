@@ -1,6 +1,7 @@
-theme = "catppuccin_mocha"
+theme = "base16_transparent"
 
 [editor]
+true-color = true
 line-number = "relative"
 cursorline = true
 bufferline = "multiple"
@@ -22,9 +23,17 @@ mode.select = "SELECT"
 
 [editor.soft-wrap]
 enable = true
-
 [keys.normal]
 "A-k" = ["delete_selection", "move_line_up", "paste_before"]
 "A-j" = ["delete_selection", "paste_after"]
 "A-h" = ["goto_line_start"]
 "A-l" = ["goto_line_end"]
+"C-q" = [":buffer-close"]
+"C-h" = [":buffer-previous"]
+"C-l" = [":buffer-next"]
+
+[editor.lsp]
+display-messages = true
+
+[editor.cursor-shape]
+insert = "bar"
